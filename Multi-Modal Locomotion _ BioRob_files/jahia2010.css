@@ -1,0 +1,99 @@
+/*
+table.homePageTable {
+	width: 100%; 
+	font-size: 1.3em;
+}
+table.homePageTable td{
+	width: 33%; 
+	text-align: center;
+	padding-bottom:20px;
+	font-weight:bold;
+}
+table.homePageTable a{
+	background-image:none;
+	text-decoration:none;
+	color:#000033;
+}
+table.homePageTable a:hover{
+	text-decoration:none;
+}
+table.homePageTable img {
+	margin:4px;
+}
+*/
+.invisible {
+	visibility: hidden;
+}
+/*
+.content li {
+	line-height:1.3em;
+	margin-bottom:7px;
+}
+*/
+table.restable a {
+	text-decoration: none;
+	background-image: none;
+	font-weight: bold;
+}
+table.bigtitles a {
+	font-size: 1.4em;
+}
+table.restable td {
+	padding-bottom: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+table.movies {
+	width: auto;
+}
+
+a {
+  background: none;
+  text-decoration: underline dotted;
+}
+a:hover {
+  background: none;
+  text-decoration: underline solid;
+}
+
+.navigation-bar a, .header a, #header2013 a, #footer a, a.fa, .treeview a, #breadcrumbs a {
+  text-decoration: none;
+}
+
+/* Remove this stupid way of making the underline on links... */
+h2 a { background: none; text-decoration: none; }
+h2 a:hover {background: none; }
+h3 a { background: none; text-decoration: none; }
+h3 a:hover {background: none; }
+img a { background: none; text-decoration: none; }
+img a:hover { background: none; text-decoration: none; }
+a img { background: none; text-decoration: none; }
+a:hover img { background: none; text-decoration: none; }
+
+/* Bug in EPFL CSS */
+.content ul li {
+	list-style-type: none;
+}
+
+div.fixed-message {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  top: 90px;
+  height: 72px;
+  z-index: -42;
+}
+
+div.fixed-message p {
+  background: #412C90;
+  color: white;
+  margin-left: 500px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 4px;
+}
+
+div.fixed-message p b, div.fixed-message p i {
+  color: white;
+}

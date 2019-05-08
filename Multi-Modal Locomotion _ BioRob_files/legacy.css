@@ -1,0 +1,70 @@
+.toggleBox>.toggler,.toggleBox .editablezone>.toggler{background:rgba(0,0,0,0) url("../img/vertical-nav-right.gif") no-repeat scroll -40px;cursor:pointer;padding-left:0!important;}
+.toggleBox .toggler.toggled-active,.toggleBox .editablezone>.toggler.toggled-active{background:rgba(0,0,0,0) url("../img/vertical-nav-down.gif") no-repeat scroll -52px;}
+.toggleBox .toggler h3,.toggleBox .toggler-content{padding-left:16px;}
+.toggleBox .toggler-content>p{margin:0;}
+.toggleBox .simple-layout li{border-bottom:none;}
+.current-title{float:left;}
+.ui-autocomplete{position:absolute;cursor:default;}
+.ui-autocomplete .ui-menu-item.more{font-family:Georgia,'Times New Roman',Times,serif;font-size:11px;font-style:italic;font-weight:700;text-align:right;padding-right:10px;}
+* html .ui-autocomplete{width:1px;}
+.ui-menu li{list-style-image:none;margin:0;}
+.ui-menu li a{color:black;padding-left:7px;display:block;background:none;}
+.ui-menu li a span.highlight{font-weight:700;color:#222;}
+#infoscience-searchform .ui-autocomplete{top:21px!important;left:0!important;z-index:6000!important;width:616px!important;overflow-y:auto;overflow-x:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;cursor:pointer;border-color:#B8B8B8;}
+#infoscience-searchform{padding-top:2px;margin:0;position:relative;width:652px;}
+#infoscience-searchform input[type="text"]{color:#666;}
+#infoscience-searchform input[type="text"] .focused{color:#000;}
+#infoscience-searchform input.search{width:493px;height:23px;line-height:22px;font-size:11pt;float:left;border-color:#b8b8b8 #fff #b8b8b8 #b8b8b8;border-style:solid none solid solid;border-width:1px 0 1px 1px;font-family:Arial,Helvetica,sans-serif;padding:0 0 0 8px;}
+#infoscience-searchform .search-button{background-image:url(//www.epfl.ch/img/magnifier.png);width:25px;height:25px;cursor:pointer;vertical-align:bottom;text-indent:-999em;border:none;float:left;}
+#infoscience-searchform .search-filter{float:left;height:23px;border-top:1px solid #B8B8B8;border-bottom:1px solid #B8B8B8;background:#fff url(http://search.epfl.ch/images/main_search_form.png) no-repeat 0 0;padding-left:0;line-height:24px;font-size:12px;font-family:Arial,Helvetica,sans-serif;position:relative;}
+#infoscience-searchform .search-filter .menu{width:141px;position:absolute;left:0;top:18px;padding:6px 0 2px 0;border:1px solid #B8B8B8;border-top:none;}
+#infoscience-searchform .search-filter .menu li{display:list-item;float:none;margin-bottom:0;border-bottom:1px solid white;list-style-image:none;margin-left:2px;}
+#infoscience-searchform .search-filter ul.hidden{position:absolute;left:-999em;}
+form#advanced-search DIV.search-filter .menu{font-family:Georgia,'Times New Roman',Times,serif;font-size:11px;font-style:italic;}
+.search-filter .menu{background:white none;left:0;line-height:18px;list-style-type:none;padding:6px 0 2px;position:absolute;top:14px;width:140px;z-index:9000;border:1px solid #b8b8b8;}
+.search-filter .menu ul li{list-type:none;}
+.search-filter .menu ul li:hover{cursor:pointer;background-color:#000;color:#fff;}
+.search-filter li.search-filter-checked{font-weight:bold;}
+#main-search-form-options-toggler .toggler{margin:4px 0;}
+#search-results{margin-bottom:10px;margin-top:10px;}
+#search-results .header-info{color:#000;font:italic 11px/18px Georgia,"Times New Roman",Times,serif;font-weight:bold;font-size:11px;letter-spacing:1px;margin-top:10px;height:25px;position:relative;width:616px;}
+.tooltip.top:after{content:url("//www.epfl.ch/img/bubble_arrow_down.png");bottom:-15px;}
+#infoscience-searchform .clearButton{background-color:white;cursor:pointer;padding-left:2px;position:absolute;right:160px;top:5px;}
+#infoscience-searchform .search-filter div{font-weight:bold;}
+#infoscience-searchform .search-filter div li.search-filter-checked label{font-weight:bold;}
+#infoscience-searchform .selected-field,#main-search-form-options .selected-field{width:80px;background:url("../img/sprites.png") no-repeat scroll right -1px transparent;border:1px solid #B8B8B8;height:18px;margin-right:2px;padding:2px 18px 0 8px;position:relative;z-index:2000;}
+#infoscience-searchform .selected-field:hover,#main-search-form-options .selected-field:hover{background:#000 url("../img/sprites.png") no-repeat right -24px;color:#fff;}
+.search-filter .menu.hidden{position:absolute;left:-999em;}
+.search-filter .menu input{margin-right:4px;}
+.search-filter .menu li{display:inline-block;float:none;border-bottom:1px solid #fff;list-style-image:none;margin:0!important;}
+#infoscience-searchform .selected-field{width:92px;background:url("../img/sprites.png") no-repeat scroll right 2px transparent;height:22px;margin-right:0;border:0;}
+#infoscience-searchform .selected-field:hover{background:#000 url("../img/sprites.png") no-repeat right -24px;color:#fff;}
+#main-search-form-options input[type="reset"],#main-search-form-options input[type="submit"]{background:url("//www.epfl.ch/img/button.png") repeat-x scroll left -1px transparent;border:1px solid #B8B8B8;color:#000;cursor:pointer;font:italic 11px Georgia,"Times New Roman",Times,serif;height:22px;margin:6px 4px 0;}
+#main-search-form-options input[type="reset"]:hover,#main-search-form-options input[type="submit"]:hover{background:url("//www.epfl.ch/img/button.png") repeat-x scroll 0 -23px transparent;border-color:black;color:white;}
+#main-search-form-options input[type="text"]{margin-left:5px;width:300px;}
+#main-search-form-options .type-opt{display:inline-block;width:95px;padding-left:8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#main-search-form-options .selected-field{width:95px;height:20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#main-search-form-options li{list-style:none;margin:4px 0 0;padding:0;}
+#main-search-form-options .search-filter{display:inline-block;font-family:Georgia,'Times New Roman',Times,serif;font-style:italic;font-size:11px;line-height:16px;padding-left:0;position:relative;cursor:pointer;width:95px;height:20px;vertical-align:middle;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#main-search-form-options .clearBtnContainer{display:inline-block;position:relative;vertical-align:bottom;}
+#main-search-form-options .menu li{float:none!important;width:100%;}
+#main-search-form-options .menu li label{width:110px;margin:0;font-weight:normal;padding-left:8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#main-search-form-options .menu li:hover label{color:#fff;}
+#main-search-form-options{margin-top:12px;}
+#advanced-search input[type="text"].filler{font-style:italic;color:#7F7F7F;}
+#main-search-form-options .search-filter.section{width:185px;}
+#main-search-form-options .search-filter.section ul.menu{width:183px;}
+#main-search-form-options .selected-field.section{width:185px;}
+li.radio label{width:80px;}
+#main-navigation .dropdown .menu{width:350px;}
+#table{display:table;}
+.group{display:table-row-group;}
+.row{display:table-row;}
+div.table{display:table;width:100%;height:100pt;}
+div.tr{display:table-row;}
+div.td{display:table-cell;position:relative;width:50%;}
+div.group{display:table;width:100%;height:100pt;}
+div.row{display:table-row;}
+div.cell{display:table-cell;position:relative;width:50%;height:auto;min-height:100%!important;}
+.info-title{margin-bottom:.5075em;}
+.group .row .cell label,.group .row .cell input{display:inline-block;vertical-align:middle;margin-bottom:.5075em;}

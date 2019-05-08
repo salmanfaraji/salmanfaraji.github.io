@@ -1,0 +1,27 @@
+.portalLink{float:left;margin:0 4px 4px 0;}
+.portalLink.lastInRow{margin-right:0;}
+.portalLink .innerWrapper{width:324px;height:184px;overflow:hidden;}
+.portalLink .innerSpacer{padding:10px;}
+.actuBox .innerSpacer h3{padding-top:10px;}
+.portalLink .innerWrapper,.portalLink .innerWrapper h3{color:white;}
+.portalBottomLinks{margin-top:40px;margin-bottom:40px;}
+.portalBottomLinks .linksList{float:left;margin-right:4px;width:324px;}
+.portalBottomLinks .linksList.lastInRow{margin-right:0;}
+.portalBottomLinks .linksList h3{border-bottom:1px solid;font:bold 13px/13px Arial,Helvetica,sans-serif;letter-spacing:0;padding:0 0 3px;}
+.portalBottomLinks .linksList li{margin-left:15px;}
+.portal_bigPicture{margin-top:0;overflow-x:hidden;padding-bottom:4px;}
+.socialBar .socialBarItem{float:left;width:160px;margin-right:4px;}
+.socialBar .socialBarItem h3{margin-bottom:12px;font-size:20px;}
+.socialBar .socialBarItem,.socialBar .socialBarItem h3,.socialBar .socialBarItem a{color:white;}
+.socialBar .socialBarItem .innerWrapper{padding:10px;}
+.socialBar .socialBarItem.socialBarLastItem{margin-right:0;}
+.socialBar .socialBarItem.facebook{background-color:#3a569f;}
+.socialBar .socialBarItem.linkedin{background-color:#0a78b7;}
+.socialBar .socialBarItem.twitter{background-color:#28b4f9;}
+.socialBar .socialBarItem.youtube{background-color:#a8001a;}
+.socialBar .socialBarItem.instagram{background-color:#4b423d;}
+.socialBar .socialBarItem.google-plus{background-color:#000;}
+.socialBar a,.socialBar a:hover{background-image:url('//www.epfl.ch/img/underline-white.gif');}
+.socialBarItem{position:relative;min-height:85px;}
+.socialBarItem .picto{position:absolute;bottom:14px;font-size:24px;right:14px;width:16px;height:16px;}
+.linksarea.noclear .clear{float:left!important;display:inline!important;clear:left!important;}
