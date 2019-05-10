@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 06/10/2018 08:32
+  	Creation date: 04/01/2019 13:45
   	*/
 
 
@@ -36,6 +36,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-layers:before { content: "\f100"; }
-.flaticon-compass-symbol:before { content: "\f101"; }
-.flaticon-idea:before { content: "\f102"; }
+.flaticon-ideas:before { content: "\f100"; }
+.flaticon-flasks:before { content: "\f101"; }
+.flaticon-analysis:before { content: "\f102"; }
+.flaticon-ux-design:before { content: "\f103"; }
+.flaticon-web-design:before { content: "\f104"; }
+.flaticon-idea:before { content: "\f105"; }
+.flaticon-innovation:before { content: "\f106"; }
