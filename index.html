@@ -88,7 +88,7 @@
     		<div class="row d-flex">
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.JPG);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-n.png);">
 	    				</div>
     				</div>
     			</div>
@@ -285,25 +285,25 @@
 						<p>We are interested in using dynamic equations of our robot to control it for different tasks better. Knowing the system model, we can find only enough actuator inputs to perform the task (e.g., keeping balance against gravity) while using minimal closed-loop gains to account for errors. This makes the system compliant, robust and safe. Our inverse dynamics problem is formulated as a quadratic optimization and solved in less than a millisecond with &gt;100 variables.&nbsp;Reference<strong>&nbsp;<a href="https://infoscience.epfl.ch/record/196995?ln=en">here</a></strong>&nbsp;and&nbsp;<strong><a href="https://infoscience.epfl.ch/record/198512?ln=en">here</a></strong>.</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: auto; height: 200px;" src="./files/atlas_push2.gif" alt="" /></a>
-						<a href="https://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: auto; height: 200px;" src="./files/plate2.gif" alt="" /></a>
-						<a href="https://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: auto; height: 200px;" src="./files/leaning2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h3>&nbsp;</h3><center>
+						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: 30%; height: auto;" src="./files/atlas_push2.gif" alt="" /></a>
+						<a href="https://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: 31%; height: auto;" src="./files/plate2.gif" alt="" /></a>
+						<a href="https://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: 34%; height: auto;" src="./files/leaning2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: auto; height: 200px;" src="./files/balance2.gif" alt="" /></a>
-						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: auto; height: 200px;" src="./files/bending2.gif" alt="" /></a>
-						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: auto; height: 200px;" src="./files/multicontact2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
-					</div>
-					<div class="col-md-6">
 						<h3 id="compliant-balance"><a href="https://infoscience.epfl.ch/record/210976?ln=en">Compliant Balance</a></h3>
 						<p>Simulating compliant behaviors is easy, but challenging to realize on the real robot. We have developed precise state estimation algorithms and high bandwidth torque controllers to interface our inverse dynamics with the real hardware. This involved identifying a model for the actuators and formulating other optimization problems to fuse the sensory data in the form of a Kalman filter. Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/210976?ln=en">here</a></strong>.</p>
+					</div>
+					<div class="col-md-6">
+						<h3>&nbsp;</h3><center>
+						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: 30%; height: auto;" src="./files/balance2.gif" alt="" /></a>
+						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: 37%; height: auto;" src="./files/bending2.gif" alt="" /></a>
+						<a href="https://www.youtube.com/watch?v=BBFWHUW-S6c"><img style="width: 24.5%; height: auto;" src="./files/multicontact2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
@@ -313,15 +313,20 @@
 						<p>Inverse dynamics makes the robot compliant and robust against perturbations but is not enough to plan locomotion. However, we can simplify the robot model into a single inverted pendulum that is always falling and find footstep locations that capture the motion and create a walking gait. This can be done by an MPC controller which is formulated as a quadratic optimization and solved in less than a millisecond. The controller brings robustness against sensory noises, delays, model errors and external perturbations to some extent (The right movie, for example, shows a robot with a very heavy left foot). Reference<strong>&nbsp;<a href="https://infoscience.epfl.ch/record/196995?ln=en">here</a>&nbsp;</strong>and&nbsp;<strong><a href="https://infoscience.epfl.ch/record/198512?ln=en">here</a></strong>.&nbsp;</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="http://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: auto; height: 200px;" src="./files/rotation2.gif" alt="" /></a>
-						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: auto; height: 200px;" src="./files/walk_push2.gif" alt="" /></a>
-						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: auto; height: 200px;" src="./files/heavy_foot2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h3>&nbsp;</h3><center>
+						<a href="http://www.youtube.com/watch?v=zbSqH1csvsQ"><img style="width: 30%; height: auto;" src="./files/rotation2.gif" alt="" /></a>
+						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: 30%; height: auto;" src="./files/walk_push2.gif" alt="" /></a>
+						<a href="https://youtu.be/k3EnnKQvvlQ"><img style="width: 30%; height: auto;" src="./files/heavy_foot2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
 				<div class="row">
+					<div class="col-md-6">
+						<h3 id="3lp-model-time-projection-control-geometric-conversion"><a href="http://infoscience.epfl.ch/record/218404?ln=en">3LP Model</a>,&nbsp;<a href="https://infoscience.epfl.ch/record/233743?ln=en">Time-Projection Control</a></h3>
+						<p><strong>3LP Model:&nbsp;</strong>The legs are relatively heavy in our robot which make the single-mass inverted pendulum model too simplistic for faster&nbsp;walking conditions where swing and torso balancing dynamics become important. We developed a similar model called 3LP with three pendulums to account for these effects (shown in dashes below). This model can simulate walking at different frequencies, speeds, double support times, torso angles, step widths and terrain slopes.&nbsp;Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/218404?ln=en">here</a></strong>.</p>
+						<p><strong>Time-Projection Control:&nbsp;</strong>On top of the 3LP model, we developed a foot-stepping controller very similar to MPC. While taking a step and being pushed at the same time, the robot would adjust the footstep location online to capture the push with a proper stepping. Our MPC could do this but needed a numerical optimization. The time-projecting controller performs the same job using a DLQR controller which is optimal like MPC, but without any optimization. We take the state at each instant and project it back to the beginning of the phase where the DLQR controller (with a sample time equal to step time) suggests footstep adjustments. These adjustments are then used online at each control tick (e.g., millisecond).&nbsp;Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/233743?ln=en">here</a></strong>.</p>
+					</div>
 					<div class="col-md-6">
 						<h3>&nbsp;</h3>
 						<h2><a href="http://youtu.be/FdNrNeOqBHw"><img style="width: 100%; height: auto;" src="./files/snapshot_V2.png" alt="" /></a></h2>
@@ -340,7 +345,7 @@
 								</tr>
 								<tr>
 								<td>
-								<div class="center" style="text-align: center;"><strong>For Developers (v2):&nbsp;</strong></div>
+								<div class="center" style="text-align: center;"><strong>Developers (v2):&nbsp;</strong></div>
 								</td>
 								<td>
 								<div class="center" style="text-align: center;"><strong><a href="https://biorob.epfl.ch/files/content/sites/biorob/files/public/Walking3LP/Walking3LP_V2_test.zip">MATLAB&nbsp;codes</a>&nbsp;</strong></div>
@@ -356,11 +361,6 @@
 						<p style="text-align: left;">* Note 2: After installation, you can launch the program by searching "Walking3LP" in your applications.</p>
 						<p style="text-align: left;">* Note 3: For development, you need a&nbsp;MATLAB 2014 or above.</p>
 					</div>
-					<div class="col-md-6">
-						<h3 id="3lp-model-time-projection-control-geometric-conversion"><a href="http://infoscience.epfl.ch/record/218404?ln=en">3LP Model</a>,&nbsp;<a href="https://infoscience.epfl.ch/record/233743?ln=en">Time-Projection Control</a></h3>
-						<p><strong>3LP Model:&nbsp;</strong>The legs are relatively heavy in our robot which make the single-mass inverted pendulum model too simplistic for faster&nbsp;walking conditions where swing and torso balancing dynamics become important. We developed a similar model called 3LP with three pendulums to account for these effects (shown in dashes below). This model can simulate walking at different frequencies, speeds, double support times, torso angles, step widths and terrain slopes.&nbsp;Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/218404?ln=en">here</a></strong>.</p>
-						<p><strong>Time-Projection Control:&nbsp;</strong>On top of the 3LP model, we developed a foot-stepping controller very similar to MPC. While taking a step and being pushed at the same time, the robot would adjust the footstep location online to capture the push with a proper stepping. Our MPC could do this but needed a numerical optimization. The time-projecting controller performs the same job using a DLQR controller which is optimal like MPC, but without any optimization. We take the state at each instant and project it back to the beginning of the phase where the DLQR controller (with a sample time equal to step time) suggests footstep adjustments. These adjustments are then used online at each control tick (e.g., millisecond).&nbsp;Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/233743?ln=en">here</a></strong>.</p>
-					</div>
 				</div>
 
 				<div class="row" style="background-color: rgb(230, 230, 255);">
@@ -369,23 +369,23 @@
 						<p>The 3LP model and time-projecting controllers are validated on the real hardware. The robot can perform walking gaits, recover pushes and comply with external dragging forces very easily. There are plenty of low-level hardware challenges like sensory noise, actuator backlash, actuator speed saturation and communication delays that the framework can overcome. Reference<strong>&nbsp;<a href="https://infoscience.epfl.ch/record/233744?ln=en">here</a>&nbsp;</strong>.</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://youtu.be/AULSwcesQqo"><img style="width: auto; height: 200px;" src="./files/walking2.gif" alt="" /></a>
-						<a href="https://youtu.be/AULSwcesQqo"><img style="width: auto; height: 200px;" src="./files/push_recovery2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h3>&nbsp;</h3><center>
+						<a href="https://youtu.be/AULSwcesQqo"><img style="width: 45%; height: auto;" src="./files/walking2.gif" alt="" /></a>
+						<a href="https://youtu.be/AULSwcesQqo"><img style="width: 45%; height: auto;" src="./files/push_recovery2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://youtu.be/QZQlb_qq0iA"><img style="width: auto; height: 250px;" src="./files/backpush.gif" alt="" /></a>
-						<a href="https://youtu.be/QZQlb_qq0iA"><img style="width: auto; height: 250px;" src="./files/forewalk.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
-					</div>
-					<div class="col-md-6">
 						<h3 id="free-walking"><a href="https://infoscience.epfl.ch/record/233744?ln=en">Model-Free Walking</a></h3>
 						<p>In this approach, we always commanded the robot to perform in-place walking. The stance hip joint in our robot keeps the torso upright to let the robot naturally fall, and the swing hip joint tracks the desired footstep location. Combined with simple Center of Pressure (CoP) damping rules in the low-level controller, our foot-placement enables the robot to recover from strong pushes and produce periodic walking gaits when subject to persistent sources of disturbance, externally or internally. These gaits are imprecise, i.e., emergent from asymmetry sources rather than precisely imposing a desired velocity to the robot. Also in extreme conditions, restricting linearity assumptions of the 3LP model are often violated, but the system remains robust in our simulations. An extensive analysis of closed-loop eigenvalues, viable regions and sensitivity to push timings further demonstrate the strengths of our simple controller. Reference <strong><a href="https://infoscience.epfl.ch/record/260430/">here</a></strong>.</p>
+					</div>
+					<div class="col-md-6">
+						<h3>&nbsp;</h3><center>
+						<a href="https://youtu.be/QZQlb_qq0iA"><img style="width: 47%; height: auto;" src="./files/backpush.gif" alt="" /></a>
+						<a href="https://youtu.be/QZQlb_qq0iA"><img style="width: 43%; height: auto;" src="./files/forewalk.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
@@ -395,20 +395,21 @@
 						<p>Inspired by methods popular in computational chemistry, we can model the robot by Cartesian points instead of joint angles. Each limb is the segment between two points; it has a certain length (holonomic constraint) and dynamic equations. Using nonlinear optimizations, we can find multi-contact optimal static postures in very short time (few milliseconds) and good convergence properties. Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/230040?ln=en">here</a></strong>.</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
+						<h3>&nbsp;</h3><center>
 						<a href="https://youtu.be/kzCcAoSkBfc"><img style="width: 80%; height: auto;" src="./files/molecule.png" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-6">
-						<a href="https://youtu.be/kzCcAoSkBfc"><img style="width: 65%; height: auto;" src="./files/planning2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
-					</div>
-					<div class="col-md-6">
 						<h3 id="motion-planning"><a href="https://ieeexplore.ieee.org/abstract/document/8624936">Multi-Contact Motion Planning</a></h3>
 						<p>A similar formulation can be used for motion planning which helps to simulate the swing dynamics of robot limbs in fast motions. Our formulation currently allows for contact adjustment and variable timing, but for a fixed sequence. Reference&nbsp;<strong><a href="https://ieeexplore.ieee.org/abstract/document/8624936">here</a></strong>.</p>
+					</div>
+					<div class="col-md-6">
+						<center>
+						<a href="https://youtu.be/kzCcAoSkBfc"><img style="width: 65%; height: auto;" src="./files/planning2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
@@ -418,25 +419,25 @@
 						<p>Inverse dynamics implements virtual compliance and brings robustness in case of perturbations. We used a reinforcement learning algorithm to optimize a foot-stepping controller in this work. We were able to achieve fast locomotion on rough-terrains and slopes with a realistic monopod hopper that had considerable swing dynamics. Reference&nbsp;<strong><a href="https://infoscience.epfl.ch/record/185784?ln=en">here</a></strong>.</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="http://youtu.be/QWU-Xw1J0ow"><img style="width: auto; height: 175px;" src="./files/monopod_up2.gif" alt="" /></a>
-						<a href="https://youtu.be/QWU-Xw1J0ow">&nbsp;<img style="width: auto; height: 175px;" src="./files/monopod2.gif" alt="" /></a>
-						<a href="http://youtu.be/QWU-Xw1J0ow"><img style="width: auto; height: 175px;" src="./files/monopod_down2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h3>&nbsp;</h3><center>
+						<a href="http://youtu.be/QWU-Xw1J0ow"><img style="width: 30%; height: auto;" src="./files/monopod_up2.gif" alt="" /></a>
+						<a href="https://youtu.be/QWU-Xw1J0ow">&nbsp;<img style="width: 30%; height: auto;" src="./files/monopod2.gif" alt="" /></a>
+						<a href="http://youtu.be/QWU-Xw1J0ow"><img style="width: 30%; height: auto;" src="./files/monopod_down2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: auto; height: 250px;" src="./files/singularity2.gif" alt="" /></a>
-						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: auto; height: 250px;" src="./files/squat2.gif" alt="" /></a>
-						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: auto; height: 250px;" src="./files/hip_bound2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
-					</div>
-					<div class="col-md-6">
 						<h3 id="singularity"><a href="https://infoscience.epfl.ch/record/228940?ln=en">Singularity</a></h3>
 						<p>Planning and control are not trivial in the joint space. Instead of thinking about individual joint angles, we prefer to think about the center of mass or feet positions, and that's why we use template models such as inverted pendulum or 3LP. However, when converting the Cartesian positions into joint-angles via inverse kinematics or task-space inverse dynamics, we might face infeasible conditions. A nonlinear optimization can realize hard constraints like balance (e.g., keeping the center of mass in the middle of the support polygon) or joint limits while finding the closest solutions possible. The following robot, for example, is commanded a very high center of mass position which can't be reached. The robot goes to singular postures (stretched knees) without any numerical difficulty. Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/228940?ln=en">here</a></strong>.</p>
+					</div>
+					<div class="col-md-6">
+						<h3>&nbsp;</h3><center>
+						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: 25.5%; height: auto;" src="./files/singularity2.gif" alt="" /></a>
+						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: 23.5%; height: auto;" src="./files/squat2.gif" alt="" /></a>
+						<a href="https://youtu.be/tFx-WaNbNOY"><img style="width: 35%; height: auto;" src="./files/hip_bound2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
@@ -446,11 +447,11 @@
 						<p>Dynamic equations can help identifying external forces. We can take all the sensory data from the robot (joint angles, velocities, torques and contact forces), put them in the equation of motion and find a residual which possibly corresponds to an external force. We have developed closed-form equations that estimate the magnitude and the application point of such a force during robot motion in ideal simulation environments. Reference&nbsp;<strong><a href="http://infoscience.epfl.ch/record/220224?ln=en">here</a></strong>.</p>
 					</div>
 					<div class="col-md-6">
-						<h3>&nbsp;</h3>
-						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: auto; height: 170px;" src="./files/estimation2.gif" alt="" /></a>
-						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: auto; height: 170px;" src="./files/shoulder2.gif" alt="" /></a>
-						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: auto; height: 170px;" src="./files/upperarm2.gif" alt="" /></a>
-						<h5>&nbsp;</h5>
+						<h3>&nbsp;</h3><center>
+						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: 28%; height: auto;" src="./files/estimation2.gif" alt="" /></a>
+						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: 30%; height: auto;" src="./files/shoulder2.gif" alt="" /></a>
+						<a href="https://youtu.be/Fnws2rtgIR4"><img style="width: 30%; height: auto;" src="./files/upperarm2.gif" alt="" /></a>
+						<h5>&nbsp;</h5></center>
 					</div>
 				</div>
 
