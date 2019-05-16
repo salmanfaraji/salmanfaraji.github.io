@@ -128,9 +128,9 @@
 		// }, 100);
 	});
 
-$('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
+	$('.navbar-collapse a').click(function(){
+		$(".navbar-collapse").collapse('hide');
+	});
 
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
